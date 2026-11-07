@@ -449,7 +449,7 @@
 
 #elif PLATFORM_LN882H
 
-//#define ENABLE_SEND_POSTANDGET				1
+#define ENABLE_SEND_POSTANDGET				1
 #define	ENABLE_HA_DISCOVERY						1
 #define ENABLE_MQTT								1
 #define ENABLE_TASMOTADEVICEGROUPS				1
@@ -856,5 +856,5 @@
 #endif
 
 
-// closing OBK_CONFIG_H ---
+// closing OBK_CONFIG_H
 #endif
