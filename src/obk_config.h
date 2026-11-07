@@ -856,5 +856,5 @@
 #endif
 
 
-// closing OBK_CONFIG_H
+// closing OBK_CONFIG_H ---
 #endif
