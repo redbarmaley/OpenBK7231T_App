@@ -79,6 +79,9 @@ void init_rest() {
 	HTTP_RegisterCallback("/api/", HTTP_GET, http_rest_get, 1);
 	HTTP_RegisterCallback("/api/", HTTP_POST, http_rest_post, 1);
 	HTTP_RegisterCallback("/app", HTTP_GET, http_rest_app, 1);
+
+	HTTP_RegisterCallback("/cfg_wifi", HTTP_ANY, http_fn_cfg_wifi, 0);
+    HTTP_RegisterCallback("/cfg_wifi_set", HTTP_ANY, http_fn_cfg_wifi_set, 0);
 }
 
 /* Extracts string token value into outBuffer (128 char). Returns true if the operation was successful. */
